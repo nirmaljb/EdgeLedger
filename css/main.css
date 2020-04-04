@@ -226,3 +226,8 @@ p {
     border-radius: 5px;
     border: none;
 }
+
+#contact .contact-form button {
+    border:none;
+    width: 100%;
+}
