@@ -103,7 +103,7 @@
         <div class="contact-form bg-primary p-2">
             <h2 class="m-heading">Contact Us</h2>
             <p>Please use the form below to contact us</p>
-            <form action="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="Enter Name">
@@ -120,7 +120,7 @@
                     <label for="message">Message</label>
                     <textarea name="message" id="message" placeholder="Enter Message"></textarea>
                 </div>
-                <button type="submit" value="send" class="btn btn-dark">Send</button>
+                <input type="submit" value="send" class="btn btn-dark">
             </form>  
         </div>
         <div class="map"></div>
