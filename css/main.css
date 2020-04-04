@@ -230,4 +230,10 @@ p {
 #contact .contact-form button {
     border:none;
     width: 100%;
+    display:inline-block;
+    background:#333;
+    color: #fff;
+    padding:0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
 }
